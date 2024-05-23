@@ -1,0 +1,20 @@
+/* styles.css */
+@import url(rodape.css);
+@import url(header.css);
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.principal {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding: 10px;
+}
+
+.imagem__main{
+    width: 80%;
+}

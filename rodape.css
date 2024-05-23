@@ -1,0 +1,31 @@
+.rodape {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.rodape__logo {
+    width: 10%;
+    height: 10%
+}
+
+.rodape__copyright {
+    width: 80%;
+    font-size: 0.75rem;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;   
+}
+
+@media only screen and (min-width: 1200px){
+    .rodape__logo {
+        margin: 5px;
+        width: 5%;
+        height: 5%;
+    }
+
+}
